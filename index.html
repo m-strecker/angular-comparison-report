@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+           A comparison of Angular to other JS frameworks like React
+        </title>
+    </head>
+    <body>
+        <h1 style="color:darkblue; background-color: lightgrey;">A comparison of Angular to other JS frameworks like React</h1><br>
+        <h2>Differences Between Angular and React:</h2>
+        <p>
+            <ul>
+                <li><b>Framework vs Library</b> <br>
+                    Angular is a framework (which includes standardized pre-written code to make development faster) while React is a library (a collection of fucntions and functionalities). 
+                    Code calls the library while the framework calls your code.
+                </li>
+                <li><b>Angular</b> <br>
+                    Angular is a TypeScript-based Model View Controller (MVC) architecture used for frameworks that develop user interfaces.
+                    It was created by Google.
+                </li>
+                <li><b>React</b> <br>
+                    React is a JavaScript library for building user interfaces.
+                    It was created by Facebook.
+                </li>
+                <li><b>Data Binding</b> <br>
+                    Angular allows 2 way data binding, while react only allows 1 way data binding.</li>
+                <li><b>DOM Usage</b> <br>
+                    Angular uses the browser's Data Object Model (DOM), while React uses a virutal DOM, which is a simplified version of the DOM.
+                    A virtual DOM can change any element very quickly without needing to render the whole DOM.
+                </li>
+                <li><b>Languages</b> <br>
+                    Angular is a JS framework built to use TypeScript. React is a JS library the recommends using JSX - JS with extended XML syntax.
+                </li>
+                <li><b>Learning Curve</b> <br>
+                   TypeScript is considered more difficult to learn than JSX.
+                </li>
+                <li><b>Native App Development Support</b> <br>
+                    There are 3 distinct versions of React: React-devtools, ReactJS.Net, and React Native. 
+                    React Native allows you to build a complete mobile app in JS for either Android or iOS. Angular builds hybrid mobile apps.
+                    Native apps have better performance then hybrid mobile apps, and they look, work and feel very similar to their respective native mobile platforms.
+                 </li>
+                 <li><b>App Structure</b> <br>
+                    Angular is a fully-featured MVC framework that allows applications to be divided into 3 interconnected components that are easier to manipulate for complex projects.
+                    React is more of a V in the MVC, and does not enforce an app structure.
+                 </li>
+                 <li><b>When to use Angular or React</b> <br>
+                    React is ideal for apps not requiring logic or computation, such as: dynamic applications, single page applications and native mobile applications.
+                    Angular is best for creating: cross-platform mobile applications, enterprise software and progressive web applications and hybrid mobile applications.
+                    Angular in combination with Ionic is a perfect tool for buliding hybrid apps!
+                 </li>
+                
+            </ul>
+        </p>
+        <h2>Why Reactive-driven forms are preferred to Template-driven forms:</h2>
+        <p> 
+            <ul>
+            <li><b>Readability</b> <br>
+                As a template grows, it becomes harder to follow and understand. Reactive forms are simplifed and easier to follow.
+             </li>
+             <li><b>Visability</b> <br>
+                It takes more code to reference the form and its controls in TDFs.
+             </li>
+             <li><b>Validators</b> <br>
+                Custom validators need custome directives when using TDFs.
+             </li>
+             <li><b>Resuability</b> <br>
+                Reactive forms are pure JS and are resuable and dynamic.
+             </li>
+             <li><b>2 Way Binding</b> <br>
+                TDFs expose a 2 way binding option which breaks 1 way data flow and immutability principles, making code prone to bugs.
+             </li>
+             <li><b>Testability</b> <br>
+                TDFs need a component to test and use async testing. MDFs don't require such.
+             </li>
+             <li><b>Why using both doesn't make sense</b> <br>
+                There's a steep leanring curve, both TDFs and MDFs would need to load, it's harder to go over pull requests not knowing which is used, and it's always best to standardize.
+             </li>
+            </ul>
+        </p>
+        <h2>Importance of web components:</h2>
+        <p> 
+            <ul><li><b>Components</b> <br>
+                A web component is a standardised way of creating encapsulated, reusable user interface elements for the web.
+            </li>
+            <li><b>Encapsulation</b> <br>
+                A component should be completely separate from the main application to increases reusability, testability and reliability.
+            </li>
+            <li><b>Extensibility</b> <br>
+                Components should be able to extend each other and in the case of web components other DOM elements.
+            </li>
+            <li><b>Composability</b> <br>
+                It should be possible to create more complex components or entire applications from a collection of components to decreases the need for global logic.
+            </li>
+            <li><b>Reusability</b> <br>
+                Components should be easily reusable with minimal dependencies and a clearly defined API.
+            </li>
+            <li><b>Interoperability</b> <br>
+                Components can transcend frameworks and be used in multiple projects of different technology stacks.
+            </li>
+            <li><b>Lifespan</b> <br>
+                Because components are interoperable they will have a longer life and there will be less need to re-write them to fit into newer technologies.
+            </li>
+            <li><b>Portability</b> <br>
+                Because components have little to no dependencies, the barrier to use is siginificantly lower than if components relied on a library or framework
+            </li>
+            <li><b>Web component libraries</b> <br>
+                Web component libraries were created to make using web components super easy, the most popular being Polymer, X-Tag and Bosonic
+            </li>
+            </ul>
+        </p>
+    </body>
+</html>
